@@ -1,5 +1,5 @@
-import { Technology } from "../../quizzes/state/technology.model";
-import { Category } from "../../quizzes/state/category.type";
+import { Technology } from "../../../quizzes/state/technology.model";
+import { Category } from "../../../quizzes/state/category.type";
 
 export interface Answer {
   id: string;

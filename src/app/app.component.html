@@ -1,2 +1,10 @@
-<div class="test">Test</div>
-<router-outlet></router-outlet>
+<hs-app-shell>
+  <div nav-links>
+    <a mat-list-item routerLink="/quizzes">Quizzes</a>
+    <a mat-list-item href="#">Link 2</a>
+    <a mat-list-item href="#">Link 3</a>
+  </div>
+  <div app-routing>
+    <router-outlet></router-outlet>
+  </div>
+</hs-app-shell>
