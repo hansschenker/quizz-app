@@ -1,4 +1,5 @@
 import { BrowserModule } from "@angular/platform-browser";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from "@angular/core";
 // angular material
 import { MaterialUiModule } from "./shared/material-ui/material-ui.module";
@@ -18,6 +19,7 @@ import { AppShellComponent } from "./app-shell/app-shell.component";
   declarations: [AppComponent, AppShellComponent],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     MaterialUiModule,
     AppRoutingModule
     // LayoutModule,

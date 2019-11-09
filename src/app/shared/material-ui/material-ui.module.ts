@@ -1,6 +1,5 @@
 import { NgModule } from "@angular/core";
 
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LayoutModule } from "@angular/cdk/layout";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatSidenavModule } from "@angular/material/sidenav";
@@ -15,7 +14,6 @@ import { MatListModule } from "@angular/material/list";
 @NgModule({
   declarations: [],
   imports: [
-    BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
@@ -28,7 +26,6 @@ import { MatListModule } from "@angular/material/list";
     MatListModule
   ],
   exports: [
-    BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,

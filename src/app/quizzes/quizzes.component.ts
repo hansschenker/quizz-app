@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'hs-quizzes',
-  templateUrl: './quizzes.component.html',
-  styleUrls: ['./quizzes.component.scss']
+  selector: "hs-quizzes",
+  templateUrl: "./quizzes.component.html",
+  styleUrls: ["./quizzes.component.scss"]
 })
 export class QuizzesComponent implements OnInit {
+  title = "Quizzes";
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

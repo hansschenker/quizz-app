@@ -1,10 +1,16 @@
 <hs-app-shell>
+  <div toolbar-title>{{ title }}</div>
   <div nav-links>
-    <a mat-list-item routerLink="/quizzes">Quizzes</a>
-    <a mat-list-item href="#">Link 2</a>
-    <a mat-list-item href="#">Link 3</a>
+    <a
+      *ngFor="let link of links; let i = index"
+      #i
+      mat-list-item
+      (click)="pageChange(i)"
+      routerLink="/"
+    >
+      {{ link.title }}</a
+    >
   </div>
-  <div app-routing>
-    <router-outlet></router-outlet>
-  </div>
+
+  <router-outlet></router-outlet>
 </hs-app-shell>
