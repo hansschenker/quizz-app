@@ -1,8 +1,9 @@
-import { Category } from "./category.type";
+import { Level } from "./level.type";
 import { Technology } from "./technology.model";
-export interface Quizze {
+
+export interface Quizz {
   id: string;
   title: string;
   technology: Technology;
-  category: Category;
+  level: Level;
 }

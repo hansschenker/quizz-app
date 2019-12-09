@@ -1,0 +1,25 @@
+.odd {
+  background-color: lightgrey;
+}
+div {
+  display: flex;
+
+  margin-bottom: 1px;
+  width: 100%;
+}
+li {
+  width: 90%;
+  margin-bottom: 1px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+span {
+  display: inline-block;
+  width: 5%;
+  font-weight: 600;
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: azure;
+}

@@ -1,0 +1,8 @@
+<div>
+  <li hightlight (click)="handleQuizzClick(quizz)">
+    {{ quizz.technology }} - {{ quizz.title }} - {{ quizz.level }} -
+    {{ index }} -
+    {{ isOdd }}
+  </li>
+  <span (click)="handleDeleteClick(quizz)">X</span>
+</div>

@@ -1,1 +1,8 @@
-<p>quizze-list works!</p>
+<ul>
+  <hs-quizz-listitem
+    *ngFor="let quizz of quizzes; index as i; odd as isOdd"
+    [quizz]="quizz"
+    [index]="i"
+    [isOdd]="isOdd"
+  ></hs-quizz-listitem>
+</ul>

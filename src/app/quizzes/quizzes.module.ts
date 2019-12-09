@@ -11,6 +11,8 @@ import { QuizzeComponent } from "./components/quizze/quizze.component";
 import { QuizzeDetailsComponent } from "./components/quizze-details/quizze-details.component";
 
 import { ReactiveFormsModule } from "@angular/forms";
+import { QuizzListitemComponent } from './components/quizz-listitem/quizz-listitem.component';
+import { HightlightDirective } from './directives/hightlight.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ReactiveFormsModule } from "@angular/forms";
     QuizzeListComponent,
     QuizzeFormComponent,
     QuizzeComponent,
-    QuizzeDetailsComponent
+    QuizzeDetailsComponent,
+    QuizzListitemComponent,
+    HightlightDirective
   ],
   exports: [
     QuizzesComponent,
